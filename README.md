@@ -1,4 +1,4 @@
-### Internship Assignment for NLP(Voice AI)
+# Internship Assignment for NLP(Voice AI)
 
 ## Metric Selection :
 Choose appropriate metrics for evaluating the model's performance. Common metrics for transcription tasks include Word Error Rate (WER), Character Error Rate (CER), and accuracy.
