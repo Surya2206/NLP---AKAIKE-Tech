@@ -7,11 +7,9 @@ Choose appropriate metrics for evaluating the model's performance. Common metric
 ## Model Development :
 
 Research and choose a suitable pre-existing architecture for transcription. This could involve using Automatic Speech Recognition (ASR) models or sequence-to-sequence models with attention mechanisms.
-
 Implement the chosen model architecture using a deep learning framework such as HuggingFace or PyTorch.
 
 Word Error Rate (WER) is a metric commonly used to evaluate the performance of a speech recognition system. It measures the difference between the recognized words and the reference (ground truth) words. WER is 
-
 calculated based on the number of substitutions, insertions, and deletions needed to transform the recognized sequence into the reference sequence.
 
 Here's a step-by-step guide on how to calculate Word Error Rate:
@@ -47,13 +45,10 @@ WER= Number of Insertions + Number of Deletions + Number of Substitutions / Tota
 ## Comprehensive Documentation:
 
 Document a code comprehensively, providing clear explanations for each section. Include detailed information on model selection, data preprocessing techniques, training methodology, and hyperparameter tuning. 
-
 Provide instructions on how to replicate the results, including any dependencies or requirements.
 
 ## Testing and Evaluation:
 
 Evaluate the model's performance using the designated test dataset. Report the results using the chosen metrics. Discuss the strengths and limitations of the model based on the evaluation.
-
 If the data provided is insufficient, consider leveraging pre-trained models and transfer learning techniques. Remember to thoroughly test your solution and provide detailed documentation to make it easy for 
-
 others to understand and reproduce your work. If you have any specific questions or need further clarification on certain aspects, feel free to ask!
